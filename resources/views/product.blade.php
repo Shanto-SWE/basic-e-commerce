@@ -41,6 +41,11 @@
   </a>
 </div>
 <div class="trending-wrapper">
+<span class="pull-right">
+					<?php
+					echo DNS1D::getBarcodeHTML('4445645656', 'C39');
+					?>
+				</span>
         <h3>Tredning Products</h3>
         @foreach($product as $item)
         <div class="trening-item">
